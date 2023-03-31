@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sanum-llaollao</title>
+<link rel="stylesheet" href="stylellao.css">
+</head>
+<body>
+    <body>
+        <div class="smoothiesp">
+            <h1 style="color:lawngreen">sanum™</h1>
+            <img src="smoothie premium.png" width="" height="" alt=""/>
+            <p>You already know how good our milk shakes are, but at llaollao we always want more.
+               That’s why we are going to add something extra that will help you to make a milk shake to suit your style.</p>
+
+            <p>In addition to choosing your two milk shake toppings, add a layer of frozen yogurt, fruit or crunchy
+               topping of your choice and your favourite sauce. This is not just any milk shake, this is a milk shake plus.</p>
+
+            <p><b>Frozen yogurt + two milk shake toppings + frozen yogurt + fruit or crunchy topping + sauce.</b></p>
+
+            <h4>Presentation suggestion</h4>
+            <button type="button" class="collapsible">combination RM18.45</button>
+            <div class="content">
+            <ul class="a">
+                <li> yogurt</li>
+                <li>fruit of the forest sauce</li>
+                <li> yogurt</li>
+                <li>mueli</li>
+                <li>mango sauce</li>
+                <li>This combination is a suggestion of llaollao <b>try to make yours</b></li>
+            </ul>
+
+            <b>Nutrition Values</b>
+            <table width="30%" border="1">
+                <tbody>
+                  <tr>
+                    <td>calories</td>
+                    <td>485.02kcal</td>
+                  </tr>
+                  <tr>
+                    <td>trans fat</td>
+                    <td>7.41g</td>
+                  </tr>
+                  <tr>
+                    <td><b>of which satured</b></td>
+                    <td>3.78g</td>
+                  </tr>
+                  <tr>
+                    <td>carbohydrates</td>
+                    <td>93.45g</td>
+                  </tr>
+                  <tr>
+                    <td><b>of which sugar</b></td>
+                    <td>56.28g</td>
+                  </tr>
+                  <tr>
+                    <td>proteins</td>
+                    <td>11.40g</td>
+                  </tr>
+                  <tr>
+                    <td>salt</td>
+                    <td>0.11mg</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <div class="allergens">
+              <p><b>Allergens</b>
+                <ul class="a">
+                    <li>soybeans</li>
+                    <li>milk</li>
+                    <li>nuts</li>
+                    <li>gluten</li>
+                    <li>sesamebeans</li>
+                </ul>
+                <p>Additional information about nutritional
+                     values and allergens <a href="https://www.llaollaoweb.com/en/additional-information-nutritional-values-and-allergens/">here</a></p>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+        </script>
+    </body>
+    </html>
+
